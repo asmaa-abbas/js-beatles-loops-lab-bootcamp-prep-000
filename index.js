@@ -22,5 +22,11 @@ const johnLennonFacts = (facts) => {
 
 
 const iLoveTheBeatles = (num) => {
+  let arr = [];
   
+  do {
+    arr.push(``)
+  } while (num < 15);
+  
+  return arr;
 };
