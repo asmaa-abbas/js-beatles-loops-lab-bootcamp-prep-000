@@ -21,13 +21,13 @@ const johnLennonFacts = (facts) => {
 };
 
 
-const iLoveTheBeatles = (num) => {
+const iLoveTheBeatles = (n) => {
   let arr = [];
   
   do {
     arr.push(`I love the Beatles!`);
     n++;
-  } while (num < 15);
+  } while (n < 15);
   
   return arr;
 };
