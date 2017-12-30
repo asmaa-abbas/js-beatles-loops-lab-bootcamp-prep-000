@@ -1,4 +1,4 @@
-function theBeatlesPlay (arrOfMusicians, arrOfInstruments) {
+const theBeatlesPlay = (arrOfMusicians, arrOfInstruments) => {
   let arr = [];
   
   arrOfMusicians.forEach((musician, idx) => {
@@ -7,3 +7,4 @@ function theBeatlesPlay (arrOfMusicians, arrOfInstruments) {
   
   return arr;
 }
+
