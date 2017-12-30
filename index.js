@@ -12,7 +12,7 @@ const johnLennonFacts = (facts) => {
   let exclaimedFacts = [];
   let i = 0;
   
-  while(facts.length > 0){
+  while(i <= facts.length){
     exclaimedFacts.push(`${facts[i]}!!!`);
     i++;
   }
