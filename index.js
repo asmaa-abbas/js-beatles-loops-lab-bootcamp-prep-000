@@ -20,3 +20,7 @@ const johnLennonFacts = (facts) => {
   return exclaimedFacts;
 };
 
+
+const iLoveTheBeatles = (num) => {
+  
+};
