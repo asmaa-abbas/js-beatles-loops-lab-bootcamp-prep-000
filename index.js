@@ -6,5 +6,17 @@ const theBeatlesPlay = (arrOfMusicians, arrOfInstruments) => {
   });
   
   return arr;
-}
+};
+
+const johnLennonFacts = (facts) => {
+  let exclaimedFacts = [];
+  let i = 0;
+  
+  while(facts.length > 0){
+    exclaimedFacts.push(`${facts[i]}!!!`);
+    i++;
+  }
+  
+  return exclaimedFacts;
+};
 
