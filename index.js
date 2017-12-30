@@ -25,7 +25,7 @@ const iLoveTheBeatles = (num) => {
   let arr = [];
   
   do {
-    arr.push(``)
+    arr.push(`I love the Beatles!`);
   } while (num < 15);
   
   return arr;
